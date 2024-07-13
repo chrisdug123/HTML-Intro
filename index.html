@@ -34,17 +34,41 @@
 <h1>Forms</h1>
 <form>
   <div>
-    Name: <input type="text" />
+    Name: <input type="text" required />
   </div>
   <div>
-    Age: <input type="number" />
+    Age: <input type="number" required />
   </div>
   <div>
     Date: <input type="date" />
   </div>
   <div>
-    <input type="submit" value="submit" />
-  </div>
+    <input type="checkbox" checked />is enrolled?
+    <div>
+      <textarea></textarea>
+    </div>
+    <div>
+      Color:
+      <select>
+        <option>Red</option>
+        <option>Blue</option>
+        <option selected>Green</option>
+
+      </select>
+    </div>
+    <div>
+      <Countries>
+        <select multiple>
+          <option>Australia</option>
+          <option>USA</option>
+          <option selected>England</option>
+          <option>France</option>
+        </select>
+      </Countries>
+    </div>
+    <div>
+      <input type="submit" value="submit" />
+    </div>
 
 
 
