@@ -1,4 +1,17 @@
-html {
-  height: 100%;
-  width: 100%;
+h1 {
+  color: red;
+  background-color: blue;
+}
+
+#mainPar {
+  color: green;
+}
+
+
+.veg {
+  color: green;
+}
+
+.meat {
+  color: brown;
 }
